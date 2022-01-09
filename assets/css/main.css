@@ -1,0 +1,230 @@
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .masthead {
+    min-height: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  .masthead {
+    min-height: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    min-height: 600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .masthead {
+    min-height: 720px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .masthead {
+    min-height: 850px;
+  }
+}
+
+body {
+  min-height: 75rem;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+}
+
+header.masthead {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 0;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url(../img/header-bg1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 60px;
+}
+
+header.masthead .masthead-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 25px;
+}
+
+.masthead-heading {
+  font-size: 3rem;
+  margin-bottom: 25px;
+}
+
+header .btn {
+  width: 10rem;
+}
+
+.page-section {
+  padding-top: 60px;
+}
+
+.section-heading {
+  font-weight: bold;
+}
+
+.section-subheading {
+  font-size: 1rem;
+}
+
+#recipes {
+  margin-bottom: -30px;
+}
+
+#recipes .section-heading {
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+#recipes .section-subheading {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+#recipes img {
+  max-height: 200px;
+  max-width: 300px;
+  border: 2px solid Grey;
+}
+
+#recipes .card {
+  border: none;
+}
+
+#recipes .card-body {
+  text-align: center;
+}
+
+#recipes .card-body h4 {
+  font-weight: 500px;
+}
+
+#recipes-categories img {
+  max-height: 200px;
+  max-width: 300px;
+  border-radius: 15%;
+  border: 1px solid black;
+}
+
+#recipes-categories .card {
+  border: none;
+}
+
+#cuisines img {
+  width: 250px;
+  height: 165px;
+  border: 2px solid white;
+}
+
+#cuisines .card {
+  border: none;
+}
+
+#cuisines a {
+  text-decoration: none;
+  color: black;
+}
+
+.team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.team-member img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+
+.team-member h4, .team-member .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.btn-social {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  border-radius: 100%;
+}
+
+#contact {
+  background-color: #212529;
+  background-image: url(../img/map-image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contact .section-heading {
+  color: #fff;
+  margin-top: 40px;
+}
+
+#contact .section-subheading {
+  margin-bottom: 40px;
+  margin-top: 30px;
+  font-style: italic;
+  color: #f5f5f5;
+}
+
+#contact .form-group {
+  margin-top: 1rem;
+}
+
+#contact input {
+  min-height: 60px;
+}
+
+#contact textarea {
+  min-height: 210px;
+}
+
+#contact button {
+  margin-bottom: 60px;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=main.css.map */
